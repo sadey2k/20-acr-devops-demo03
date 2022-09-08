@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: customaksnginxapp3
-        image: acrdemo03.azurecr.io/customaksnginxapp3
+        image: acrdemo03.azurecr.io/customaksnginxapp3:latest
         ports:
           - containerPort: 80
         imagePullPolicy: Always
