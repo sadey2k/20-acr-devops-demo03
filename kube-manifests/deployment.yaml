@@ -15,7 +15,7 @@ spec:
         app: acr-demo03
     spec:
       containers:
-      - name: customaksnginxapp03
+      - name: customaksnginxapp3
         image: acrdemo03.azurecr.io/customaksnginxapp3
         ports:
           - containerPort: 80
